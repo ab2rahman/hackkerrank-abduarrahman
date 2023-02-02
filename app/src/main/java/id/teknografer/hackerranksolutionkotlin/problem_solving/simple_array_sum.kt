@@ -4,11 +4,9 @@
 
 package id.teknografer.hackerranksolutionkotlin.problem_solving
 
-
 object SimpleArraySum {
     @JvmStatic
     fun main(args: Array<String>) {
-        val arCount = readLine()!!.trim().toInt()
 
         val ar = readLine()!!.trimEnd().split(" ").map { it.toInt() }.toTypedArray()
 
@@ -19,6 +17,6 @@ object SimpleArraySum {
 
     private fun simpleArraySum(ar: Array<Int>): Int {
         // Write your code here
-        return ar.sum();
+        return ar.sum()
     }
 }
